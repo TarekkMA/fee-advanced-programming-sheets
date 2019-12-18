@@ -31,7 +31,7 @@ public class Account {
 
     @Override
     public String toString() {
-        return customer.toString() + " balance=$" + Math.round(balance * 100.0) / 100.0;
+        return customer.toString() + " balance = $" + Math.round(balance * 100.0) / 100.0;
     }
 
     public String getCustomerName() {
